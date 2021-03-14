@@ -78,11 +78,11 @@ O uso do `new Date(deadline)` realiza a transformação da string "ANO-MÊS-DIA"
 
 ### PUT `/todos/:id`
 
-A rota recebe, pelo header da requisição, uma propriedade `username` contendo o username do usuário e receber as propriedades `title` e `deadline` dentro do corpo. É alterado **apenas** o `title` e o `deadline` da tarefa que possui o `id` igual ao `id` presente nos parâmetros da rota.
+A rota recebe, pelo header da requisição, uma propriedade `username` contendo o username do usuário e recebe as propriedades `title` e `deadline` dentro do corpo. É alterado **apenas** o `title` e o `deadline` da tarefa que possui o `id` igual ao `id` presente nos parâmetros da rota.
 
 ### PATCH `/todos/:id/done`
 
-A rota recebe, pelo header da requisição, uma propriedade `username` contendo o username do usuário e alteraa a propriedade `done` para `true` no *todo* que possuir um `id` igual ao `id` presente nos parâmetros da rota.
+A rota recebe, pelo header da requisição, uma propriedade `username` contendo o username do usuário e altera a propriedade `done` para `true` no *todo* que possuir um `id` igual ao `id` presente nos parâmetros da rota.
 
 ### DELETE `/todos/:id`
 
@@ -154,7 +154,7 @@ Para que esse teste passe, na rota PATCH `/todos/:id/done` deve-se mudar a propr
 
 - **Should not be able to mark a non existing todo as done**
 
-Para que esse teste passe, não deve ser possível a mudança da propriedade `done` de um *todo* que não existe e retornar uma resposta contendo um status `404` e um json no seguinte formato: 
+Para que esse teste passe, não deve ser possível a mudança da propriedade `done` de um *todo* que não exista e retornar uma resposta contendo um status `404` e um json no seguinte formato: 
 
 ```jsx
 {
