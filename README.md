@@ -62,7 +62,7 @@ A rota recebe `title` e `deadline` dentro do corpo da requisição e, uma propri
 
 A propriedade `done` sempre é iniciada como `false` ao criar um *todo*.
 
-**Dica**: Ao fazer a requisição com o Insomnia ou Postman, preencha a data de `deadline` com o formato `ANO-MÊS-DIA` e ao salvar a tarefa pela rota, faça da seguinte forma: 
+**Dica**: Ao fazer a requisição com o Insomnia ou Postman, preencha a data de `deadline` com o formato `ANO-MÊS-DIA`. A tarefa é salva pela rota da seguinte forma: 
 
 ```jsx
 { 
@@ -74,7 +74,7 @@ A propriedade `done` sempre é iniciada como `false` ao criar um *todo*.
 }
 ```
 
-Usar `new Date(deadline)` irá realizar a transformação da string "ANO-MÊS-DIA" (por exemplo "2021-02-25") para uma data válida do JavaScript.
+O uso do `new Date(deadline)` realiza a transformação da string "ANO-MÊS-DIA" (por exemplo "2021-02-25") para uma data válida do JavaScript.
 
 ### PUT `/todos/:id`
 
