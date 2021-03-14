@@ -1,19 +1,16 @@
 <h1 align="center">Ignite Desafio 01 - Conceitos do Node.js</h1>
 
 <p align="center">
-  <img alt="Happy" src="public/2560x1080.png" height="">
-</p>
-
-<p align="center">
   <a href="#-Projeto">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Middlewares-da-aplicacão">Middlewares da aplicacão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Testes-dos-middlewares">Testes dos middlewares</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Como-executar">Como executar</a>
 </p>
-<br/>
 
-
+<p align="center">
+  <img alt="Happy" src="public/2560x1080.png">
+</p>
 
 ## 📙 Desafio
 
