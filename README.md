@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Happy" src="public/ignite-2560x1080.png">
+  <img alt="Ignite" src="public/ignite-2560x1080.png">
 </p>
 
 ## 📙 Desafio
