@@ -180,7 +180,7 @@ Para que esse teste passe, não deve ser possível excluir um *todo* que não ex
 
 ## 💻 Tecnologias
 
-Essa aplicacão foi desenvolvido com as seguintes tecnologias:
+Essa aplicacão foi desenvolvida com as seguintes tecnologias:
 
 - [Express](https://expressjs.com/pt-br/)
 - [Jest](https://jestjs.io/)
@@ -190,7 +190,8 @@ Essa aplicacão foi desenvolvido com as seguintes tecnologias:
 
 - Clone o repositório
 - Instale as dependências com `yarn`
-- Rode os testes com `yarn test`
+- Inicie o servidor com `yarn test`
+- Utilize o Insomnia ou algum outro programa semelhante para realizar as requisicões.
 
 ---
 
